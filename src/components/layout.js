@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <Header siteTitle={data.site.siteMetadata.title} background="background-color: #21D4FD; background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);" />
       <div
         style={{
           margin: `0 auto`,
