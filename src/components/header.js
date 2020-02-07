@@ -38,7 +38,7 @@ const Header = ({ background, title }) => (
 
 Header.defaultProps = {
   background: BACKGROUND,
-  title: "Polling App",
+  title: 'Polling App',
 };
 
 Header.propTypes = {
